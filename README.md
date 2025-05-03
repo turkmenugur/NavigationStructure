@@ -22,7 +22,7 @@ The navigation flow within the application is as follows:
     * Clicking the "GO > Y" button navigates to `FragmentY`.
 
 5.  **`FragmentY` (Page Y):**
-    * **Important Behavior:** When on this fragment, pressing the device's back button navigates the user directly back to `MainFragment`. The intermediate steps in the navigation history (`FragmentB` or `FragmentX`) are skipped. This is achieved using attributes like `app:popUpTo="@id/mainFragment"` and `app:popUpToInclusive="false"` (or `true`, depending on the case) in the actions leading to `FragmentY` within the Navigation Graph (`nav_graph.xml`).
+    * **Important Behavior:** When on this fragment, pressing the device's back button navigates the user directly back to `MainFragment`.
 
 ## Navigation Graph
 
